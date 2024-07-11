@@ -3,7 +3,7 @@ const app = require("express")();
 const PORT = process.env.PORT | 3000;
 
 app.get("/", (req, res) => {
-  console.log("Feature f-456 push commit");
+  console.log("Feature f-456 push commit second");
   res.send("GET request is working");
 });
 
