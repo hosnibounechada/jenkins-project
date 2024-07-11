@@ -3,7 +3,7 @@ const app = require("express")();
 const PORT = process.env.PORT | 3000;
 
 app.get("/", (req, res) => {
-  console.log("Feature feat-876");
+  console.log("Feature feat-876 updated");
   res.send("GET request is working");
 });
 
