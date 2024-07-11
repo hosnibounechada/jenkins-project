@@ -5,6 +5,9 @@ pipeline {
             agent {
                 label 'nodejs-agent'
             }
+            when {
+                branch 'main'
+            }
             steps {
                 container('node') {
                     sh 'node -v'

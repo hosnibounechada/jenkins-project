@@ -3,7 +3,7 @@ const app = require("express")();
 const PORT = process.env.PORT | 3000;
 
 app.get("/", (req, res) => {
-  console.log("fixed in fix-123");
+  console.log("Feature feat-123 sub branch");
   res.send("GET request is working");
 });
 
