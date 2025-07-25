@@ -3,7 +3,7 @@ const app = require("express")();
 const PORT = process.env.PORT | 3000;
 
 app.get("/", (req, res) => {
-  console.log("main branch update again");
+  console.log("main branch update again 2");
   res.send("GET request is working");
 });
 
